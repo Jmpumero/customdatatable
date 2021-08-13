@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-featured-icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="featured-icon" clip-path="url(#clip-featured-icon)">
+    <g id="Grupo_3791" data-name="Grupo 3791">
+      <path id="Unión_12" data-name="Unión 12" d="M2,21.135a.521.521,0,0,1-.265-.456V13.505A8.381,8.381,0,1,1,16.274,5.6a8.289,8.289,0,0,1-1.248,7.909v7.159a.523.523,0,0,1-.792.449L8.375,18.464,2.528,21.128A.524.524,0,0,1,2,21.135ZM2.1,8.369A6.278,6.278,0,1,0,8.375,2.092,6.277,6.277,0,0,0,2.1,8.369ZM8.4,11.433l-2.786.994L5.7,9.471,3.9,7.129,6.735,6.3,8.4,3.855,10.072,6.3l2.839.832L11.1,9.471l.085,2.956Z" transform="translate(3.624 1.532)"/>
+      <path id="Trazado_515" data-name="Trazado 515" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)" opacity="0"/>
+    </g>
+  </g>
+</svg>

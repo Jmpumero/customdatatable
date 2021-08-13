@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-arrow-left-circle-icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="arrow-left-circle-icon" clip-path="url(#clip-arrow-left-circle-icon)">
+    <g id="Grupo_861" data-name="Grupo 861">
+      <path id="Sustracción_1" data-name="Sustracción 1" d="M7441-244a10.012,10.012,0,0,1-10-10,10.012,10.012,0,0,1,10-10,9.933,9.933,0,0,1,7.071,2.929A9.933,9.933,0,0,1,7451-254,10.012,10.012,0,0,1,7441-244Zm2.363-16.364L7437-254l6.363,6.363,1.414-1.414-4.95-4.95,4.95-4.95Z" transform="translate(-7429 266)" fill="#1e1f21"/>
+      <path id="Trazado_139" data-name="Trazado 139" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)" opacity="0"/>
+    </g>
+  </g>
+</svg>

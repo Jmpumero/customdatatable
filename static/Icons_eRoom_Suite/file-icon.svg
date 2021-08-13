@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-file-icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="file-icon" clip-path="url(#clip-file-icon)">
+    <g id="Grupo_4789" data-name="Grupo 4789">
+      <path id="Trazado_730" data-name="Trazado 730" d="M9,2V2H20a1,1,0,0,1,1,.992V21.008a.993.993,0,0,1-.993.992H3.993A1,1,0,0,1,3,20.993V8L9,2ZM5.83,8H9V4.83ZM11,4V9a1,1,0,0,1-1,1H5V20H19V4Z"/>
+      <path id="Trazado_729" data-name="Trazado 729" d="M0,0H24V24H0Z" opacity="0"/>
+    </g>
+  </g>
+</svg>

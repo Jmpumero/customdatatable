@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-netplan-icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="netplan-icon" clip-path="url(#clip-netplan-icon)">
+    <g id="verified_user-black-24dp">
+      <path id="Trazado_124" data-name="Trazado 124" d="M12.429,1,3,5.052V11.13a12.675,12.675,0,0,0,9.429,12.156A12.675,12.675,0,0,0,21.857,11.13V5.052Zm-2.1,16.208-4.19-4.052L7.62,11.728l2.713,2.614,6.9-6.676L18.714,9.1Z" transform="translate(-0.429 -0.143)" fill="#1e1f21"/>
+      <path id="Trazado_123" data-name="Trazado 123" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)" opacity="0"/>
+    </g>
+  </g>
+</svg>

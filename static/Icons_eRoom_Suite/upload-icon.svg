@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-upload-icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="upload-icon" clip-path="url(#clip-upload-icon)">
+    <g id="Grupo_3976" data-name="Grupo 3976">
+      <path id="Trazado_481" data-name="Trazado 481" d="M1,14.5A6.5,6.5,0,0,1,4.064,8.981a8,8,0,0,1,15.872,0,6.5,6.5,0,0,1-2.936,12L7,21A6.531,6.531,0,0,1,1,14.5Zm15.848,4.487a4.5,4.5,0,0,0,2.03-8.309l-.807-.5-.12-.942a6,6,0,0,0-11.9,0l-.12.942-.8.5a4.5,4.5,0,0,0,2.029,8.309L7.325,19h9.35l.173-.013ZM13,13v4H11V13H8l4-5,4,5Z"/>
+      <path id="Trazado_480" data-name="Trazado 480" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)" opacity="0.003"/>
+    </g>
+  </g>
+</svg>

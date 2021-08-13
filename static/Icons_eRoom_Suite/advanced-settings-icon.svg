@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-advanced-settings-icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="advanced-settings-icon" clip-path="url(#clip-advanced-settings-icon)">
+    <g id="Grupo_2291" data-name="Grupo 2291">
+      <path id="Trazado_204" data-name="Trazado 204" d="M6.17,18a3,3,0,0,1,5.66,0H22v2H11.83a3,3,0,0,1-5.66,0H2V18Zm6-7a3,3,0,0,1,5.66,0H22v2H17.83a3,3,0,0,1-5.66,0H2V11Zm-6-7a3,3,0,0,1,5.66,0H22V6H11.83A3,3,0,0,1,6.17,6H2V4Z"/>
+      <path id="Trazado_203" data-name="Trazado 203" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)" opacity="0"/>
+    </g>
+  </g>
+</svg>

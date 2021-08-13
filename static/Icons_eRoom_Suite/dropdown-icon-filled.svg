@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-dropdown-icon-filled">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="dropdown-icon-filled" clip-path="url(#clip-dropdown-icon-filled)">
+    <g id="arrow_drop_down-black-24dp">
+      <path id="Trazado_78" data-name="Trazado 78" d="M7,10l5,5,5-5Z" fill="#1e1f21"/>
+      <path id="Trazado_77" data-name="Trazado 77" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)" opacity="0"/>
+    </g>
+  </g>
+</svg>

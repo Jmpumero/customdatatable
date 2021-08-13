@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-user-profile-icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="user-profile-icon" clip-path="url(#clip-user-profile-icon)">
+    <g id="account_circle-black-48dp" transform="translate(0 0)">
+      <path id="Trazado_68" data-name="Trazado 68" d="M12.8,2A10.8,10.8,0,1,0,23.6,12.8,10.8,10.8,0,0,0,12.8,2Zm0,3.24A3.24,3.24,0,1,1,9.56,8.48,3.236,3.236,0,0,1,12.8,5.24Zm0,15.336A7.777,7.777,0,0,1,6.32,17.1c.032-2.149,4.32-3.326,6.48-3.326s6.448,1.177,6.48,3.326A7.777,7.777,0,0,1,12.8,20.576Z" transform="translate(-0.8 -0.8)" fill="#1e1f21"/>
+      <path id="Trazado_67" data-name="Trazado 67" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)" opacity="0"/>
+    </g>
+  </g>
+</svg>

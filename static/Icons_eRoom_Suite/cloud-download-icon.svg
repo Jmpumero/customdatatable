@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-cloud-download-icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="cloud-download-icon" clip-path="url(#clip-cloud-download-icon)">
+    <g id="Grupo_3502" data-name="Grupo 3502">
+      <path id="Trazado_353" data-name="Trazado 353" d="M1,14.5A6.5,6.5,0,0,1,4.064,8.981a8,8,0,0,1,15.872,0,6.5,6.5,0,0,1-2.936,12L7,21A6.531,6.531,0,0,1,1,14.5Zm15.848,4.487a4.5,4.5,0,0,0,2.03-8.309l-.807-.5-.12-.942a6,6,0,0,0-11.9,0l-.12.942-.8.5a4.5,4.5,0,0,0,2.029,8.309L7.325,19h9.35l.173-.013ZM13,12h3l-4,5L8,12h3V8h2Z" transform="translate(0 0)"/>
+      <path id="Trazado_352" data-name="Trazado 352" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)" opacity="0"/>
+    </g>
+  </g>
+</svg>

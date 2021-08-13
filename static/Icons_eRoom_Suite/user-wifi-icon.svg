@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-user-wifi-icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="user-wifi-icon" clip-path="url(#clip-user-wifi-icon)">
+    <g id="Grupo_3747" data-name="Grupo 3747">
+      <path id="Trazado_435" data-name="Trazado 435" d="M11.452,14.174v8h-8a8,8,0,0,1,8-8Zm0-1a6,6,0,1,1,6-6A6,6,0,0,1,11.452,13.174Z" transform="translate(-1)"/>
+      <path id="Trazado_442" data-name="Trazado 442" d="M.089,4.8a8.258,8.258,0,0,1,10.378,0L9.6,5.872a6.883,6.883,0,0,0-8.648,0ZM1.53,6.587a5.965,5.965,0,0,1,7.5,0L8.16,7.657a4.59,4.59,0,0,0-5.766,0L1.53,6.586ZM2.971,8.371a3.671,3.671,0,0,1,4.613,0L6.719,9.442a2.295,2.295,0,0,0-2.883,0L2.971,8.371Zm1.441,1.785a1.376,1.376,0,0,1,1.73,0l-.865,1.071-.865-1.071Z" transform="translate(11.231 11.1)"/>
+      <path id="Trazado_434" data-name="Trazado 434" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)" opacity="0"/>
+    </g>
+  </g>
+</svg>

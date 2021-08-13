@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-user-merge-icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="user-merge-icon" clip-path="url(#clip-user-merge-icon)">
+    <g id="Grupo_5067" data-name="Grupo 5067">
+      <path id="Trazado_750" data-name="Trazado 750" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Trazado_751" data-name="Trazado 751" d="M14,14.252V22H4a8,8,0,0,1,10-7.748ZM12,13a6,6,0,1,1,6-6A6,6,0,0,1,12,13Zm8,4h3v2H20v3.5L15,18l5-4.5Z"/>
+    </g>
+  </g>
+</svg>

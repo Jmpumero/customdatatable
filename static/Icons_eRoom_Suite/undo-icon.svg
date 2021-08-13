@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-undo-icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="undo-icon" clip-path="url(#clip-undo-icon)">
+    <g id="Grupo_632" data-name="Grupo 632">
+      <path id="Trazado_122" data-name="Trazado 122" d="M5.627,6.262l2.4,2.221L6.689,9.721,2,5.386,6.689,1.05l1.34,1.239L5.627,4.51h6.795A7.31,7.31,0,0,1,20,11.517a7.31,7.31,0,0,1-7.579,7.007H3.895V16.772h8.526a5.482,5.482,0,0,0,5.684-5.255,5.482,5.482,0,0,0-5.684-5.255Z" transform="translate(0.4 1.876)" fill="#1e1f21"/>
+      <path id="Trazado_121" data-name="Trazado 121" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)" opacity="0"/>
+    </g>
+  </g>
+</svg>

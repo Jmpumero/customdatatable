@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-chart-icon_2">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="chart-icon_2" data-name="chart-icon – 2" clip-path="url(#clip-chart-icon_2)">
+    <g id="Grupo_3190" data-name="Grupo 3190" transform="translate(0 -0.027)">
+      <g id="Grupo_3454" data-name="Grupo 3454" transform="translate(2595.5 -273.037)">
+        <path id="Unión_6" data-name="Unión 6" d="M4.708,19.579a.973.973,0,0,1-.914-.978L3.8,13.178l5.781,2-.014,3.5a.911.911,0,0,1-.911.911Zm14.028-2.311L3.8,12.114V5.2L18.736.042A.758.758,0,0,1,19.743.76V16.551a.758.758,0,0,1-1.007.718ZM.911,12.116A.892.892,0,0,1,0,11.228V6.064a.878.878,0,0,1,.913-.87H2.736l0,6.922Z" transform="translate(-2593.5 275.037)"/>
+      </g>
+      <path id="Trazado_312" data-name="Trazado 312" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)" opacity="0"/>
+    </g>
+  </g>
+</svg>

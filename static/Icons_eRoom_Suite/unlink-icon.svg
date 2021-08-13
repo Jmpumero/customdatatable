@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-unlink-icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="unlink-icon" clip-path="url(#clip-unlink-icon)">
+    <g id="Grupo_3985" data-name="Grupo 3985">
+      <path id="iconmonstr-link-11" d="M12.043,18.133,9.127,19.817A6.085,6.085,0,0,1,3.043,9.278L5.96,7.594,7.245,9.819,4.328,11.5a3.513,3.513,0,1,0,3.514,6.083l2.916-1.682,1.285,2.227ZM9.28,3.042,7.6,5.958,9.822,7.245l1.684-2.917a3.514,3.514,0,0,1,6.087,3.514l-1.685,2.916,2.226,1.284,1.685-2.915A6.084,6.084,0,0,0,9.28,3.042Zm6.36,17.381-1.482.21-.45-3.171,1.48-.209Zm4.993-6.262-.214,1.482-3.171-.453.212-1.48ZM15.7,16.751l1.057-1.057,2.268,2.266-1.058,1.057L15.7,16.751Z" transform="translate(22.451 22.45) rotate(180)"/>
+      <path id="Trazado_471" data-name="Trazado 471" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)" opacity="0"/>
+    </g>
+  </g>
+</svg>

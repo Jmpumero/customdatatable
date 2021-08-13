@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-time-clock-icon_1">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="time-clock-icon_1" data-name="time-clock-icon – 1" clip-path="url(#clip-time-clock-icon_1)">
+    <g id="Grupo_3224" data-name="Grupo 3224">
+      <path id="Trazado_322" data-name="Trazado 322" d="M12,22A10,10,0,1,1,22,12,10,10,0,0,1,12,22Zm1-10V7H11v7h6V12Z"/>
+      <path id="Trazado_321" data-name="Trazado 321" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)" opacity="0"/>
+    </g>
+  </g>
+</svg>

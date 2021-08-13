@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-message-icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="message-icon" clip-path="url(#clip-message-icon)">
+    <g id="Grupo_4328" data-name="Grupo 4328">
+      <path id="Subtraction_7" data-name="Subtraction 7" d="M364.614,121.188h-.027a10,10,0,0,1-4.682-1.175l-5.291,1.175,1.174-5.292a10,10,0,1,1,8.826,5.292Zm4.676-11.336a1.335,1.335,0,1,0,1.336,1.335A1.337,1.337,0,0,0,369.29,109.852Zm-4.676,0a1.335,1.335,0,1,0,1.336,1.335,1.337,1.337,0,0,0-1.336-1.335Zm-4.673,0a1.335,1.335,0,1,0,1.334,1.336h0A1.338,1.338,0,0,0,359.941,109.852Z" transform="translate(-352.607 -99.176)"/>
+      <path id="Trazado_546" data-name="Trazado 546" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)" opacity="0"/>
+    </g>
+  </g>
+</svg>

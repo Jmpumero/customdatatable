@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-download-icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="download-icon" clip-path="url(#clip-download-icon)">
+    <g id="file_download_black_24dp">
+      <path id="Trazado_724" data-name="Trazado 724" d="M19,9H15V3H9V9H5l7,7ZM5,18v2H19V18Z"/>
+      <path id="Trazado_723" data-name="Trazado 723" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)" opacity="0"/>
+    </g>
+  </g>
+</svg>

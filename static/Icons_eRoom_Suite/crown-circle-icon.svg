@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-crown-circle-icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="crown-circle-icon" clip-path="url(#clip-crown-circle-icon)">
+    <g id="Grupo_4950" data-name="Grupo 4950">
+      <path id="Trazado_742" data-name="Trazado 742" d="M446.668,719.086a11,11,0,1,0,11,11A11,11,0,0,0,446.668,719.086Zm0,19.8a8.8,8.8,0,1,1,8.8-8.8A8.8,8.8,0,0,1,446.668,738.886Zm5.193-12.508-2.368,1.578-2.363-3.306a.585.585,0,0,0-.132-.132.565.565,0,0,0-.788.132l-2.364,3.31-2.373-1.582a.566.566,0,0,0-.874.532l.928,7.894a.564.564,0,0,0,.56.5h9.158a.564.564,0,0,0,.56-.5l.928-7.89a.564.564,0,0,0-.874-.536Zm-5.192,5.536v0h0a1.128,1.128,0,1,1,1.133-1.126A1.129,1.129,0,0,1,446.666,731.911Z" transform="translate(-434.668 -718.086)"/>
+      <path id="Trazado_211" data-name="Trazado 211" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)" opacity="0"/>
+    </g>
+  </g>
+</svg>

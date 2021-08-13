@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-calendar-icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="calendar-icon" clip-path="url(#clip-calendar-icon)">
+    <g id="Grupo_827" data-name="Grupo 827">
+      <path id="Trazado_137" data-name="Trazado 137" d="M16.4,2.92h3.84a.96.96,0,0,1,.96.96V19.24a.96.96,0,0,1-.96.96H2.96A.96.96,0,0,1,2,19.24V3.88a.96.96,0,0,1,.96-.96H6.8V1H8.72V2.92h5.76V1H16.4ZM3.92,8.68v9.6H19.28V8.68Zm1.92,3.84h4.8v3.84H5.84Z" transform="translate(0.4 0.2)" fill="#1e1f21"/>
+      <rect id="Rectángulo_921" data-name="Rectángulo 921" width="24" height="24" opacity="0"/>
+      <path id="Trazado_136" data-name="Trazado 136" d="M0,0H24V24H0Z" fill="none"/>
+    </g>
+  </g>
+</svg>

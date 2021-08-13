@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-clock-wise-icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="clock-wise-icon" clip-path="url(#clip-clock-wise-icon)">
+    <g id="forward_10-black-24dp">
+      <g id="Grupo_1046" data-name="Grupo 1046" transform="translate(4 1)">
+        <g id="Grupo_1045" data-name="Grupo 1045">
+          <path id="Trazado_183" data-name="Trazado 183" d="M18,13a6,6,0,1,1-6-6v4l5-5L12,1V5a8,8,0,1,0,8,8Z" transform="translate(-4 -1)" fill="#302c3e"/>
+        </g>
+      </g>
+      <g id="Grupo_1044" data-name="Grupo 1044" opacity="0">
+        <rect id="Rectángulo_309" data-name="Rectángulo 309" width="24" height="24" fill="rgba(0,0,0,0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

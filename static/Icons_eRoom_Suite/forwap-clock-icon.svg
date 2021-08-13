@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-forwap-clock-icon">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="forwap-clock-icon" clip-path="url(#clip-forwap-clock-icon)">
+    <g id="Grupo_3737" data-name="Grupo 3737">
+      <path id="Trazado_429" data-name="Trazado 429" d="M12,2A10,10,0,1,0,22,12H20a8,8,0,1,1-1.865-5.135L16,9h6V3L19.553,5.446A9.979,9.979,0,0,0,12,2Z"/>
+      <path id="Trazado_428" data-name="Trazado 428" d="M24,0H0V24H24Z" fill="rgba(0,0,0,0)" opacity="0"/>
+      <path id="Trazado_429-2" data-name="Trazado 429" d="M12.22,7.284v4.585l3.243,3.243-1.415,1.415L10.22,12.7V7.284Z"/>
+    </g>
+  </g>
+</svg>

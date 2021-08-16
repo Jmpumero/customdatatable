@@ -36,6 +36,7 @@
 .test1{
     padding: 50px;
     
+    
 }
 
 /* .table-eroom{
@@ -52,11 +53,13 @@
 }
 
 table.dataTable thead tr  {
-    background:var(--azul-eroom-principal) !important;
+    /* background-color:var(--azul-eroom-principal) ; */
     color: var(--blanco-puro) !important;
-    border-radius: 8px 8px 0px 0px !important;
-    opacity: 1 !important;
-    
+}
+
+table.dataTable thead:first-child tr:first-child{
+  background-color: rgb(247, 0, 255) !important;
+  border-top-left-radius: 10px !important;
 }
 
 
@@ -118,6 +121,12 @@ table.dataTable tbody tr.selected {
 table.dataTable thead th {
     background: transparent !important;
     white-space: nowrap !important;
+
+    
+   
+    
+
+
   }
   
   table.dataTable thead span.sort-icon {
@@ -125,10 +134,6 @@ table.dataTable thead th {
     padding-left: 0px;
     width: 16px;
     height: 16px;
-
-
-   
-
   }
   
    table.dataTable thead .sorting span { 
@@ -160,11 +165,7 @@ table.dataTable thead th {
     
 }
 
-table.dataTable thead tr { 
-  border-radius: 10px;
-  background-color: var(--azul-eroom-principal) !important;
-  
-}
+
 
 table.datatable { border-collapse: separate; }
 td { border: solid 1px #000; }
@@ -173,7 +174,12 @@ tr:first-child td:last-child { border-top-right-radius: 10px; }
 tr:last-child td:first-child { border-bottom-left-radius: 10px; }
 tr:last-child td:last-child { border-bottom-right-radius: 10px; }
 
-  
+
+
+
+
+
+
     
   /* table.dataTable thead .sorting_asc_disabled span { background: url('http://cdn.datatables.net/plug-ins/3cfcc339e89/integration/bootstrap/images/sort_asc_disabled.png') no-repeat  right; 
     margin-left: 8px;

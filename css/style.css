@@ -97,13 +97,8 @@ tr:first-child td:last-child { border-top-right-radius: 10px; } */
   border-top: 0px !important;
 }
 .main_table tr:first-child td:nth-child(odd) { 
-  
   border-top: 0px !important;
 }
-
-
-
-
 
 .main_table.dataTable {
      text-align: center;   
@@ -119,19 +114,15 @@ tr:first-child td:last-child { border-top-right-radius: 10px; } */
 
 
 .main_table.dataTable tbody tr:hover {
-
     color: var(--main-gray-text);
     background-color: var(--active-tag);
     cursor: pointer;
-    
     }
 
 .main_table.dataTable tbody tr:active {
-
     color: var(--white);
     background-color: var(--eroom-primary-alt-2);
     cursor: pointer;
-    
     } 
 
 .main_table.dataTable tbody tr.selected {
@@ -144,25 +135,23 @@ tr:first-child td:last-child { border-top-right-radius: 10px; } */
   display: none;
 }
 
-  .main_table.dataTable thead th {
-    background: transparent !important;
-    white-space: nowrap !important;
-  }
-  
-  .main_table.dataTable thead span.sort-icon {
-    display: inline-block !important;
-    padding-left: 0px;
-    width: 16px;
-    height: 16px;
-  }
+.main_table.dataTable thead th {
+  background: transparent !important;
+  white-space: nowrap !important;
+}
+
+.main_table.dataTable thead span.sort-icon {
+  display: inline-block !important;
+  padding-left: 0px;
+  width: 16px;
+  height: 16px;
+}
   
  
   .main_table.dataTable thead .sorting_asc span { 
       background: url('../static/Icons_eRoom_Suite/dropdown-icon-filled.svg') no-repeat  center right !important;
-      
       margin-right: 8px !important;
       transform: rotate(180deg) !important;
-      
     }
   
   .main_table.dataTable thead .sorting_desc span { 
@@ -171,15 +160,11 @@ tr:first-child td:last-child { border-top-right-radius: 10px; } */
     }
 
   .main_table .sort-icon{
-    
     filter: brightness(10) !important;
-
   }
 
   .main_table.dataTable td {
-    
     padding: 15px;
-    
 }
 
  .dataTables_filter   input  {
@@ -196,21 +181,3 @@ tr:first-child td:last-child { border-top-right-radius: 10px; } */
   font-style: normal;
   font-size: 12px;
 }
-
-
-
-
-
-
-    
-  /* table.dataTable thead .sorting_asc_disabled span { background: url('http://cdn.datatables.net/plug-ins/3cfcc339e89/integration/bootstrap/images/sort_asc_disabled.png') no-repeat  right; 
-    margin-left: 8px;
-    margin-top: 18px;
-    margin-right: 9px;
-  }
-  table.dataTable thead .sorting_desc_disabled span { background: url('http://cdn.datatables.net/plug-ins/3cfcc339e89/integration/bootstrap/images/sort_desc_disabled.png') no-repeat   right;
-    margin-left: 8px;
-    margin-top: 18px;
-    margin-right: 9px;
-  } */
-  

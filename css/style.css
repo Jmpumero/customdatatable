@@ -79,8 +79,7 @@ tr:first-child td:last-child { border-top-right-radius: 10px; } */
   font-weight: 600;
   font-size: 14px;
   font-style: normal;
-  
-
+  border: 0px;
 }
 .main_table tr:first-child th:nth-child(odd) { 
   background-color: var(--eroom-primary) !important ;
@@ -88,8 +87,24 @@ tr:first-child td:last-child { border-top-right-radius: 10px; } */
   font-weight: 600;
   font-size: 14px;
   font-style: normal;
+  border: 0px;
 }
 /*    */
+
+
+/* la primera fila de la tabla*/
+.main_table  tr:first-child td:nth-child(even) { 
+  border-top: 0px;
+}
+.main_table tr:first-child td:nth-child(odd) { 
+  
+  border-top: 0px;
+}
+
+
+
+
+
 .main_table.dataTable {
      text-align: center;   
 }
@@ -155,18 +170,16 @@ tr:first-child td:last-child { border-top-right-radius: 10px; } */
     margin-left: 16px;
 } 
   .main_table.dataTable thead .sorting_asc span { 
-      background: url('http://cdn.datatables.net/1.10.0/images/sort_asc.png') no-repeat center  right;
+      background: url('../static/Icons_eRoom_Suite/dropdown-icon-filled.svg') no-repeat   right;
       margin-left: 8px; 
       margin-top: 16px;
+      transform: rotate(180deg);
     }
   
   .main_table.dataTable thead .sorting_desc span { 
     background: url('../static/Icons_eRoom_Suite/dropdown-icon-filled.svg') no-repeat   right;
     margin-left: 8px;
     margin-top: 18px;
-    margin-right: 9px;
-    
-    
     }
 
   .main_table .sort-icon{

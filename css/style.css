@@ -63,6 +63,7 @@
   font-weight: normal;
   font-style: normal;
   font-size: 12px;
+  text-align: center;
 }
 
 /* tr:first-child td:first-child { border-top-left-radius: 10px; }
@@ -90,8 +91,10 @@ tr:first-child td:last-child { border-top-right-radius: 10px; } */
   border: 0px;
 }
 /*    */
-
-
+/* altura del header*/
+.main_table  tr:first-child  {
+  height: 52px;
+ }
 /* la primera fila de la tabla*/
 .main_table  tr:first-child td:nth-child(even) { 
   border-top: 0px !important;
@@ -146,13 +149,24 @@ tr:first-child td:last-child { border-top-right-radius: 10px; } */
   width: 16px;
   height: 16px;
 }
-  
+
+
+
+#example_filter {
+  display: flex !important;
+  flex-direction: column-reverse !important;
+}
+
+#example_filter label {
+  color: #2870dd;
+}
+
  
-  .main_table.dataTable thead .sorting_asc span { 
-      background: url('../static/Icons_eRoom_Suite/dropdown-icon-filled.svg') no-repeat  center right !important;
-      margin-right: 8px !important;
-      transform: rotate(180deg) !important;
-    }
+.main_table.dataTable thead .sorting_asc span { 
+    background: url('../static/Icons_eRoom_Suite/dropdown-icon-filled.svg') no-repeat  center right !important;
+    margin-right: 8px !important;
+    transform: rotate(180deg) !important;
+  }
   
   .main_table.dataTable thead .sorting_desc span { 
     background: url('../static/Icons_eRoom_Suite/dropdown-icon-filled.svg') no-repeat  center right !important;
@@ -176,8 +190,46 @@ tr:first-child td:last-child { border-top-right-radius: 10px; } */
 
 .main_table::placeholder{
   color: var(--light-gray-text);
-  font-family: 'Poppins';
+  font-family: 'Poppins' ;
   font-weight: normal;
   font-style: normal;
   font-size: 12px;
 }
+
+.input-special{
+  background: var(--main-background) !important;
+  border-radius: 17px !important;
+  width: 100%;
+  overflow: hidden !important;
+}
+
+
+/*****************search****************/
+/* posicion del  search*/
+#example_wrapper  div:first-child {
+  flex-direction: column-reverse !important;
+  margin-bottom: 1%;
+}
+
+.search_table{
+  width: 320px !important;
+  height: 34px !important;
+  background:#F0F2F5 !important;
+  border-radius: 17px ;
+  border: 0;
+  position: absolute;
+  
+  }
+  
+  .search::placeholder{
+  font-size: 12px;
+  text-indent: 1rem;
+  font-family: "Poppins";
+  }
+  
+  .icon_search{
+  width: 18px;
+  position: relative;
+  top: -3px;
+  left: 280px;;
+  }

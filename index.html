@@ -19,7 +19,7 @@
     <script defer src="./node_modules/@fortawesome/fontawesome-free/js/brands.min.js"></script>
     <script defer src="./node_modules/@fortawesome/fontawesome-free/js/solid.min.js"></script>
     <script defer src="./node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
-   
+    <script src="./node_modules/@iconfu/svg-inject/dist/svg-inject.min.js"></script>
     <title>tittle</title>
 </head>
 
@@ -583,176 +583,7 @@
 
 
  
-    <!--
-    <div  class="castsensor-view" t-name="sensor_cast">
-
-        <div  class="row-*  ">
-
-            
-           
-             <div id="principal_cast col"  >
- 
-                 <div class="card-header">
-                     Cast
-                 </div>
-                     <div class="card text-center">
-                         <div class="card-body col  row">
-                             <div id="datos_form" class="col">
-                                     <div class="row sensor-info">
-                                         <div class="col">
-                                             <label > Cantidad de conexiones:</label>
-                                         </div>
-                                         <div class="col">
-                                             <label id="cast_num_conexion" > 285.</label>
-                                         </div>
-                                     
-                                     </div>
-                                     <div class="row sensor-info">
-                                         <div class="col">
-                                             <label > Tiempo promedio por conexion:</label>
-                                         </div>
-                                         <div class="col">
-                                             <label id="cast_av_conexion" > 2 horas.</label>
-                                         </div>
-                                     </div>
-                                     <div class="row sensor-info">
-                                         <div class="col">
-                                             <label > Aplicacion mas visitada:</label>
-                                         </div>
-                                         <div class="col">
-                                             <label id="cast_app_mu" > Netflix.</label>
-                                         </div>
-                                     
-                                     </div>
-                                     <div class="row sensor-info">
- 
-                                         <div class="col">
-                                             <label > Tiempo promedio de visita: </label>
-                                         </div>
-                                         <div class="col">
-                                             <label id="cast_avg_time"> .</label>
-                                         </div>
-                                     
-                                     </div>
-                                     <div class="row sensor-info">
-                                         <div class="col">
-                                             <label > Hora usual de visita:</label>
-                                         </div>
-                                         <div class="col">
-                                             <label id="cast_hu_visite" > 20:00-01:00.</label>
-                                         </div>
-                                     
-                                     </div>
- 
-                                     <div class="row sensor-info">
- 
-                                         <div class="col">
-                                             <label > Primera conexion: </label>
-                                         </div>
-                                         <div class="col">
-                                             <label id="cast_first_conexion" >15-09-2020 19:00pm.</label>
-                                         </div>
-                                     
-                                     </div>
- 
-                                     <div class="row sensor-info">
- 
-                                         <div class="col">
-                                             <label > Ultima conexion: </label>
-                                         </div>
-                                         <div class="col">
-                                             <label id="cast_last_conexion" >23-03-2021 7:00am.</label>
-                                         </div>
-                                     
-                                     </div>
-                                     <div class="row sensor-info">
- 
-                                         <div class="col">
-                                             <label  > Dispositivo mas usado: </label>
-                                         </div>
-                                         <div class="col">
-                                             <label id="cast_device" >Movil.</label>
-                                         </div>
-                                     
-                                     </div>
- 
-                                     <div class="row sensor-info">
- 
-                                         <div class="col">
-                                             <label > Ultima reproduccion: </label>
-                                         </div>
-                                         <div class="col">
-                                             <label id="cast_last_replay" >Youtube-Just for Dummy's.</label>
-                                         </div>
-                                     
-                                     </div>
-                                     <div class="row sensor-info">
- 
-                                         <div class="col">
-                                             <label > Duracion: </label>
-                                         </div>
-                                         <div class="col">
-                                             <label id="cast_duration" >10 min.</label>
-                                         </div>
-                                     
-                                     </div>
- 
-                                     <div class="row sensor-info">
- 
-                                         <div class="col">
-                                             <label > Fecha: </label>
-                                         </div>
-                                         <div class="col">
-                                             <label id="cast_date">10-05-2020 22:30pm.</label>
-                                         </div>
-                                     
-                                     </div>
-                                   
-                             </div>
-                             <div id="datos_grafica" class="col">
-
-                                <div>
-                                    <canvas id="myChart"></canvas>
-                                  </div>
-                                  
-                                 <p>[inserte grafica aqui]</p>
-                             </div>
-                         </div>
-                     </div>
-                     
-                     <div class="card-footer ">
-                         <div class="card-header">
- 
-                             <p>Historial de Reproducciones</p>
-                         </div>
-                         
-                         <table id="table_sensor_cast" class="display  nowrap" style="width:100%">
-                             <thead class="thead-dark">
-                                 <tr>
-                                     <th>Fecha</th>
-                                     <th>Aplicacion</th>
-                                     <th>Contenido</th>
-                                     <th>Duracion</th>
-                                     <th>Dispositivo</th>
-                                     
-                                 </tr>
-                             </thead>
-                             
-                         </table>
-                     </div>
-                
-             </div>
- 
- 
-         
-         </div>
-         
-    </div>
-    
-
-     -->
-   
-
+  
 
 <script src="./static/js/jquery-3.5.1.js"> </script>
 <script src="./static/js/jquery.dataTables.min.js"> </script>
@@ -771,12 +602,14 @@
     $(document).ready(function() {
        let t= $('#example').DataTable({
            responsive: true,
+           info: false,
+           fixedHeader: true,
            drawCallback: function( settings ) {
            $('#example_filter  label').text('')
-           let a= '<input type="text" class="search_table"/>'+ 
-                  '<span class="icon_search">'+ 
-                     '<img src="/static/Icons_eRoom_Suite/search-icon.svg" alt="">'+
-                  '</span>'
+           let a= `<input type="text" class="search_table"/>
+                  <span class="icon_search">
+                     <img class="search-icon-table" src="./static/Icons_eRoom_Suite/search-icon.svg" onload="SVGInject(this)" />
+                  </span>`
            $('#example_filter').html(a)
         } 
         });

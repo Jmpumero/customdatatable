@@ -152,15 +152,10 @@ tr:first-child td:last-child { border-top-right-radius: 10px; } */
 
 
 
-#example_filter {
+.dataTables_filter {
   display: flex !important;
   flex-direction: column-reverse !important;
 }
-
-#example_filter label {
-  color: #2870dd;
-}
-
  
 .main_table.dataTable thead .sorting_asc span { 
     background: url('../static/Icons_eRoom_Suite/dropdown-icon-filled.svg') no-repeat  center right !important;
@@ -181,12 +176,7 @@ tr:first-child td:last-child { border-top-right-radius: 10px; } */
     padding: 15px;
 }
 
- .dataTables_filter   input  {
-  background: var(--main-background) !important;
-  border-radius: 17px !important;
-  width: 100%;
-  overflow: hidden !important;
-}
+
 
 .main_table::placeholder{
   color: var(--light-gray-text);
@@ -199,16 +189,25 @@ tr:first-child td:last-child { border-top-right-radius: 10px; } */
 .input-special{
   background: var(--main-background) !important;
   border-radius: 17px !important;
-  width: 100%;
-  overflow: hidden !important;
+  display: flex;
+  background: var(--main-background) !important;
+  border-radius: 17px !important;
+  width: 50% !important;
+  height: 100% !important;
+
+  /* overflow: hidden !important; */
 }
 
 
 /*****************search****************/
 /* posicion del  search*/
-#example_wrapper  div:first-child {
-  flex-direction: column-reverse !important;
+.dataTables_wrapper  .row:first-child{
+  /* flex-direction: column-reverse !important; */
   margin-bottom: 1%;
+}
+
+.dataTables_wrapper  .row:first-child > div:last-child{
+  display: flex !important;
 }
 
 .search_table{
@@ -227,9 +226,72 @@ tr:first-child td:last-child { border-top-right-radius: 10px; } */
   font-family: "Poppins";
   }
   
-  .icon_search{
+
+/* .dataTables_filter   input  {
+    background: var(--main-background) !important;
+    border-radius: 17px !important;
+    width: 100%;
+    
+  } */
+
+.icon_search{
   width: 18px;
   position: relative;
-  top: -3px;
-  left: 280px;;
+  align-self: end;
+  margin-right: 5%;
+  /* position: relative; */
+  
   }
+
+  .search-icon-table path {
+    fill: var(--light-gray-text)
+  }
+
+
+.dataTables_wrapper{
+  overflow: hidden;
+  padding: 1rem;
+}
+/***********Paginacion******************/
+
+.dataTables_wrapper > .row:last-child > div:last-child >.dataTables_paginate > .pagination{
+  justify-content: space-between;
+}
+
+
+.dataTables_wrapper > .row:last-child > div:last-child >.dataTables_paginate > .pagination > .paginate_button > .page-link{
+  background: var(--disabled-light);
+  color: var(--eroom-secondary);
+  border-radius: 20px; /* el dise#o no indica el redondeado......*/
+  font-size: 14px;
+  font-family: "Poppins";
+}
+
+.dataTables_wrapper > .row:last-child > div:last-child >.dataTables_paginate > .pagination > .active >.page-link{
+  background: var(--eroom-secondary);
+  color: var(--white);
+  border: 0px;
+  }
+
+ .dataTables_wrapper .row:last-child {
+  margin-top: 107px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+} 
+
+
+
+
+/*********pruebas******/
+.dataTables_wrapper > .row:first-child > div:first-child{
+  display: none !important;
+} 
+.dataTables_filter{
+  width: 235px;
+  align-self: start;
+  height: auto;
+}
+

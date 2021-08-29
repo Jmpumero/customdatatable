@@ -27,3 +27,25 @@
     width: 15px;
     border-color: black;
 }
+
+.input--puntuacion{
+    width: 60%;
+    height: 50%;
+}
+
+.btn__add{
+    height: 30%;
+}
+
+.div_rango_fecha{
+    border: 1px solid;
+}
+.div_input_fecha{
+    justify-content: center;
+    align-items: baseline;
+}
+
+.inputs_fecha{
+    justify-content: center;
+    align-items: center;
+}
